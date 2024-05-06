@@ -62,7 +62,7 @@ export default function Navbar({ onChange }) {
               limit: 20
             },
             headers: {
-              'X-RapidAPI-Key': 'c040c0bda8mshc73b62f9939ef67p115261jsne77a7e8ae7a1',
+              'X-RapidAPI-Key': 'API_KEY',
               'X-RapidAPI-Host': 'ev-charge-finder.p.rapidapi.com'
             }
           });

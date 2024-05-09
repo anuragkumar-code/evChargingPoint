@@ -75,7 +75,6 @@ export default function Navbar({ onChange }) {
     const handleInputChange = (e) => {
       const value = e.target.value;
       setSearchQuery(value);
-    //   console.log(value);
     };
 
     return (
@@ -88,7 +87,7 @@ export default function Navbar({ onChange }) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                    EV CHARGING POINTS
+                    SEARCH EV CHARGING POINTS
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
